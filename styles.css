@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  background-color: #FFEBAD;
+}
+#head-title{
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+  margin: 5%;
+  color: #7FBCD2;
+}
+.container{
+  display: block;
+  /*width: 50%;*/
+  margin: auto;
+  padding-top:  5%;
+}
+.btn{
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  background-color: inherit;
+}
+.pressed{
+  box-shadow: 0 0 10px 10px white;
+  background-color: #ABD9FF;
+}
