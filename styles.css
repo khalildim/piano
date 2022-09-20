@@ -12,17 +12,22 @@ body{
   display: block;
   /*width: 50%;*/
   margin: auto;
-  padding-top:  5%;
+  padding-top:  1%;
+}
+.twoFirstBtn{
+  display: inline-block;
+  padding-right: 13%;
 }
 .btn{
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: 10px solid black;
   border-radius: 20%;
   background-color: inherit;
 }
+
 .pressed{
   box-shadow: 0 0 10px 10px white;
   background-color: #ABD9FF;

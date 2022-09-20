@@ -40,4 +40,50 @@ $(document).keypress(function(event){
     audio.play();
     animationPress("sol");
   }
+  if (event.key === "k") {
+    var audio = new Audio("sound/la.mp3" );
+    audio.play();
+    animationPress("la");
+  }
+  if(event.key === "l"){
+    var audio = new Audio("sound/si.mp3" );
+    audio.play();
+    animationPress("si");
+  }
+  if(event.key === "r"){
+    var audio = new Audio("sound/C.mp3" );
+    audio.play();
+    animationPress("C");
+  }
+  if(event.key === "t"){
+    var audio = new Audio("sound/D.mp3" );
+    audio.play();
+    animationPress("D");
+  }
+  if(event.key === "u"){
+    var audio = new Audio("sound/F.mp3" );
+    audio.play();
+    animationPress("F");
+  }
+  if(event.key === "i"){
+    var audio = new Audio("sound/G.mp3" );
+    audio.play();
+    animationPress("G");
+  }if(event.key === "o"){
+    var audio = new Audio("sound/A.mp3" );
+    audio.play();
+    animationPress("A");
+  }
+});
+
+var started = false;
+$(document).keypress(function(){
+  if(!started){
+    $("#head-title").text("enjoy");
+  }
+});
+$(document).click(function(){
+  if(!started){
+    $("#head-title").text("enjoy");
+  }
 });
